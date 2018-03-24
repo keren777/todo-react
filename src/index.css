@@ -1,0 +1,64 @@
+html, body {
+  height: 100%; }
+
+h1 {
+  margin: 20px 0 15px 0; }
+
+input, button {
+  outline: none; }
+
+#main {
+  width: 600px;
+  margin: 0 auto;
+  text-align: left; }
+
+ul {
+  padding: 0;
+  list-style: none;
+  border: 1px solid #cccccc;
+  border-radius: 5px; }
+  ul li {
+    position: relative;
+    padding: 10px 5px;
+    border-bottom: 1px solid #ccc; }
+    ul li:last-child {
+      border-bottom: none; }
+    ul li:hover {
+      background-color: #F5F5F5; }
+      ul li:hover .close {
+        display: inline-block;
+        cursor: pointer; }
+    ul li .toggle {
+      text-align: center;
+      width: 40px;
+      height: auto;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0;
+      border: none;
+      -webkit-appearance: none; }
+    ul li .close {
+      display: none;
+      float: right;
+      background-color: #F5F5F5;
+      color: #999;
+      border: none;
+      font-size: 16px; }
+    ul li label {
+      margin-left: 50px;
+      color: #999999; }
+    ul li.checked .toggle:after {
+      content: url("Assets/check.svg"); }
+    ul li.checked label {
+      text-decoration: line-through; }
+    ul li.unchecked .toggle:after {
+      content: url("Assets/uncheck.svg"); }
+
+.form-inline .form-control {
+  width: 50%;
+  padding: 10px 5px;
+  box-shadow: none;
+  border: 1px solid #ccc; }
+
+/*# sourceMappingURL=index.css.map */
